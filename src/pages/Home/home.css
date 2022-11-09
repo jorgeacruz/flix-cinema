@@ -2,12 +2,14 @@
     max-width: 800px;
     margin: 14px auto;
 }
+
 .lista-filmes article {
     width: 100%;
     background-color: #fff;
     padding: 15px;
     border-radius: 4;
 }
+
 .lista-filmes img {
     width: 900px;
     max-width: 100%;
@@ -17,13 +19,15 @@
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
-.lista-filmes strong{
+
+.lista-filmes strong {
     margin-bottom: 14px;
     text-align: center;
     font-size: 22px;
     display: block;
 }
-.lista-filmes a{
+
+.lista-filmes a {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,4 +38,33 @@
     border-bottom-left-radius: 8px;
     border-bottom-right-radius: 8px;
     color: #fff;
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 26px;
+
+}
+
+.e_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: calc(100vh - 60px);
+}
+
+.e_container h1 {
+    font-size: 50px;
+}
+
+.e_container h2 {
+    font-size: 30px;
+}
+
+.e_container a {
+    font-size: 22px;
 }
