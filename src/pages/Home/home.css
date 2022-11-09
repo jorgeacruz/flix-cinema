@@ -1,6 +1,9 @@
 .lista-filmes {
-    max-width: 800px;
+    max-width: 96%;
     margin: 14px auto;
+    display: flex;
+    flex-direction: row;
+    
 }
 
 .lista-filmes article {
@@ -16,6 +19,7 @@
     max-height: 340px;
     object-fit: cover;
     display: block;
+    column-count: 5;
     border-top-left-radius: 8px;
     border-top-right-radius: 8px;
 }
