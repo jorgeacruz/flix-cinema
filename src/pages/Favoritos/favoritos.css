@@ -5,7 +5,7 @@
     align-items: center;
 }
 .meus-filmes h1 {
-    margin-bottom: 14px;
+    margin-bottom: 50px;
 }
 .meus-filmes span {
     font-size: 17px;
@@ -24,7 +24,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:40px;
+
 }
 .meus-filmes div a {
     text-decoration: none;
