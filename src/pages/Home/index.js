@@ -20,7 +20,7 @@ function Home() {
                 }
             })
             //console.log(response.data.results.slice(0, 10));
-            setFilmes(response.data.results.slice(0, 5))
+            setFilmes(response.data.results)
 
             //apos carregdar os filmes passa loading para false
             setLoading(false);
