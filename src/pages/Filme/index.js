@@ -87,6 +87,7 @@ export default function Filme() {
                 <button>
                     <a href={`https://youtube.com/results?search_query=${filme.title} trailer`} target='blank'>Trailer</a>
                 </button>
+                <button style={{backgroundColor:'#f60', width:300}} onClick={() => navigation('/')}> voltar a lista de filmes</button>
             </div>
         </div>
     );

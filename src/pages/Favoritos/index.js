@@ -41,7 +41,7 @@ export default function Favoritos() {
                         <li key={item.id} className='meus-favoritos'>
                             <span>{item.title}</span>
                             <div>
-                                <Link to={`/filmes/${item.id}`}>Ver Detalhes</Link>
+                                <Link to={`/filme/${item.id}`}>Ver Detalhes</Link>
                                 <button onClick={() => excluirFilme(item.id)}>Excluir</button>
                             </div>
                         </li>

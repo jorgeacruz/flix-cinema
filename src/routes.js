@@ -4,6 +4,7 @@ import Home from './pages/Home';
 import Filme from './pages/Filme';
 import Erro from './pages/Erro';
 import Header from './components/Header';
+import Footer from './components/footer';
 import Favoritos from './pages/Favoritos';
 
 
@@ -18,6 +19,7 @@ export default function RouteApp() {
                 
                 <Route path="*" element={<Erro/>} />
             </Routes>
+            <Footer/>
         </BrowserRouter>
     )
 }
