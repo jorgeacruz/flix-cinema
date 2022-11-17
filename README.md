@@ -1,2 +1,2 @@
-# flix-cinema
+# React Aplication
 ![View](flix-cinema.gif)
